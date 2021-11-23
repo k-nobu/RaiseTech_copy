@@ -338,3 +338,27 @@ element.style {
     display: none;
   }
 }
+
+@media (max-width: 1260px) {
+  .Nav__body ul li a {
+    padding: 0px 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Header {
+    height: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Main {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Nav__body ul {
+    display: none;
+  }
+}
