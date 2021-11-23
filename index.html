@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-
-
-
-
-
-
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -35,30 +29,98 @@
         <div class="Header__link">
           <div class="Nav">
             <p class="Nav__btn">
-              <!-- <a href="#">
-                <span>メニューを閉じる</span> -->
-              </a>
-            </p>
+
+ <!-- ハンバーガーメニュー -->
+              <div class="ham-btn">
+                <span class="ham-btn__line"></span>
+                <span class="ham-btn__line"></span>
+                <span class="ham-btn__line"></span>
+              </div>
+
             <!-- ↓ここのstyle謎 -->
             <nav class="Nav__body" style"display: block;">
               <ul id="menu-global-navi" class="menu">
                 <li>
-                  <a href="#">はじめての方へ</a>
+                  <a href="#" class="open-menu1">はじめての方へ</a>
+                  <ul class="sub-menu1 close" style="display: none;">
+                    <li>
+                      <a href="#">マンガでもわかるRaiseTech</a>
+                    </li>
+                    <li>
+                      <a href="#">サポート体制</a>
+                    </li>
+                    <li>
+                      <a href="#">トライアル受講</a>
+                    </li>
+                    <li>
+                      <a href="#">就職・転職支援制度</a>
+                    </li>
+                    <li>
+                      <a href="#">ご利用の流れ</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
-                  <a>コース案内</a>
+                  <a class="open-menu2">コース案内</a>
+                  <ul class="sub-menu2 close" style="display: none;">
+                    <li>
+                      <a href="#">マーケティングコース</a>
+                    </li>
+                    <li>
+                      <a href="#">デザインコース</a>
+                    </li>
+                    <li>
+                      <a href="#">WordPress副業コース</a>
+                    </li>
+                    <li>
+                      <a href="#">AWSフルコース</a>
+                    </li>
+                    <li>
+                      <a href="#">AWS自動化コース</a>
+                    </li>
+                    <li>
+                      <a href="#">Javaフルコース</a>
+                    </li>
+                    <li>
+                      <a href="#">Javaフレームワークコース</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <a href="#">講師紹介</a>
                 </li>
                 <li>
-                  <a>卒業生の声・実績</a>
+                  <a class="open-menu3">卒業生の声・実績</a>
+                  <ul class="sub-menu3 close" style="display: none;">
+                    <li>
+                      <a href="#">卒業生の声</a>
+                    </li>
+                    <li>
+                      <a href="#">転職・案件実績</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
-                  <a>メディア</a>
+                  <a class="open-menu4">メディア</a>
+                  <ul class="sub-menu4 close" style="display: none;">
+                    <li>
+                      <a href="#">動画一覧</a>
+                    </li>
+                    <li>
+                      <a href="#">掲載記事一覧</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
-                  <a href="#">サポート</a>
+                  <a href="#" class="open-menu5">サポート</a>
+                  <ul class="sub-menu5 close" style="display: none;">
+                    <li>
+                      <a href="#">よくあるご質問</a>
+                    </li>
+                    <li>
+                      <a href="#">お問い合わせ</a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="Nav__special">
                   <a href="#">受講お申し込み</a>
@@ -97,22 +159,20 @@
             <div class="Recommendation__entry">
               <div class="Recommendation__title">
                 <p class="Recommendation__icon">
-                  <i class="fa-solid fa-dumbbell"></i>
-                  <!-- <i class="fal fa-dumbbell fa-fw">
-                  ::before
-                  </i> -->
+                  <i class="fas fa-dumbbell">
+                    
+                  </i>
                 </p>
                 <p>現場主義</p>
-              <div class="Recommendatin__body">
-                <p>「プログラム」がけでは稼げない！現場で求められる「技術」の教えます。</p>
+              </div>
+              <div class="Recommendation__body">
+                <p>「プログラム」だけでは稼げない！ 現場で求められる「技術」のみ教えます。</p>
               </div>
             </div>
             <div class="Recommendation__entry">
               <div class="Recommendation__title">
-                <p class="Recommendation__icon>
-                  <i class="fal fa-user-chat fa-fw">
-                    ::before
-                  </i>
+                <p class="Recommendation__icon">
+                  <i class="fas fa-baby"></i>
                 </p>
                 <p>現役講師</p>
               </div>
@@ -123,20 +183,23 @@
             <div class="Recommendation__entry">
               <div class="Recommendation__title">
                 <p class="Recommendation__icon">
-                  <!-- <i class="fal-life-ring fa-fw">
-                    ::before
-                  </i> -->
+                  <i class="fab fa-angellist"></i>
                 </p>
                 <p>徹底サポート</p>
               </div>
               <div class="Recommendation__body">
-                <p>期間中の質疑応答無制限！個別進捗管理！挫折させないサポートを徹底します。</p>
+                <p>期間中の質疑応答無制限！ 個別進捗管理！ 挫折させないサポートを徹底します。</p>
               </div>
             </div>
-            </div>
           </div>
-        </div>
+        </div>       
       </div>
+            
+    
+   
+
+
+
 
     </article>
 
@@ -144,6 +207,9 @@
       
     </div>
   </div>
-  
+    <div id="message"></div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
 </body>
 </html>

@@ -1,5 +1,7 @@
-@charset "UTF-8";
+@charset "utf-8";
+
 /* head */
+
 html {
   font-size: 62.5%;
 }
@@ -9,28 +11,28 @@ html {
   line-height: 1.15;
 }
 
+
 /* body */
+
 body {
   line-height: 1.7;
-  font-family: "Noto Sans JP", MyYuGothicM, YuGothic, -apple-system, BlinkMacSystemFont, "Hiragino kaku Gothic ProN", Meiryo, Verdana, arial, helvetica, sans-serif;
+  font-family: "Noto Sans JP",MyYuGothicM,YuGothic,-apple-system,BlinkMacSystemFont,"Hiragino kaku Gothic ProN",Meiryo,Verdana,arial,helvetica,sans-serif;
   font-size: 1.6rem;
   color: #121212;
   margin: 0;
 }
 
+
 /* Header */
+
 div {
   display: block;
 }
 
 .Header {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   background: #fff;
   z-index: 1100;
   position: fixed;
@@ -55,17 +57,13 @@ p {
   line-height: 1.3;
   font-weight: 900;
   height: 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-content: center;
+  align-items: center;
 }
 
 /* Header dropdownmenu */
+
 a:hover {
   background-color: #d4f1f8;
 }
@@ -82,6 +80,13 @@ ul.sub-menu li {
   background-color: #e9f8fb;
 }
 
+ul.sub-menu.close {
+  
+}
+
+
+
+
 .Header .Header__title p img {
   height: 33px;
   width: auto;
@@ -91,6 +96,7 @@ ul.sub-menu li {
   vertical-align: middle;
   border-style: none;
 } */
+
 .Header .Header__title p a span {
   margin-left: 16px;
   white-space: nowrap;
@@ -111,6 +117,7 @@ strong {
 }
 
 /* nav */
+
 .Nav {
   font-weight: 700;
 }
@@ -125,17 +132,13 @@ p {
 }
 
 .Nav__body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display:flex;
 }
 
 .Nav__body ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -145,25 +148,21 @@ p {
 }
 
 .Nav__body ul li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 0 15px;
   height: 70px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  align-items: center;
+  transition: .3s;
   color: #131d34;
 }
 
 .Nav__body ul li.Nav__special a {
   color: #fff;
-  background-color: #2498b3;
+  background-color: #2498b3
 }
 
 /* main */
+
 .Main {
   padding-top: 70px;
 }
@@ -177,19 +176,15 @@ p {
 }
 
 .TopHead__layer1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding-top: 80px;
   background: url(img/bg-hero1.png) no-repeat center center;
   z-index: 200;
 }
 
 .TopHead__layer2 {
-  background: url(img/bg-hero2.png) no-repeat center center;
+  background:url(img/bg-hero2.png) no-repeat center center;
   z-index: 100;
 }
 
@@ -206,8 +201,7 @@ p {
   padding: 43px 40px 19px;
   background-color: #fff;
   text-align: center;
-  height: 265px;
-  /*ここわからん*/
+  height: 265px; /*ここわからん*/
 }
 
 h1 {
@@ -239,11 +233,11 @@ p.Btn {
   padding: 24px 37px;
   font-size: 1.8rem;
   background-color: #2498b3;
-  border-color: #2498b3;
+  border-color: #2498b3
 }
 
 .Btn.Btn--highlight a {
-  color: #fff;
+  color: #fff
 }
 
 .Btn a {
@@ -254,8 +248,7 @@ p.Btn {
 }
 
 element.style {
-  -webkit-transform: translate3d(0px, 32px, 0px);
-          transform: translate3d(0px, 32px, 0px);
+  transform: translate3d(0px, 32px, 0px);
 }
 
 .TopHead__layer2 {
@@ -264,11 +257,12 @@ element.style {
 }
 
 /* footer */
+
 .Sec.Sec--nallow {
   padding: 4em 0;
 }
 
-.Sec--black {
+.Sec--black{
   background-color: #000;
 }
 
@@ -286,13 +280,9 @@ element.style {
 
 .Recommendation {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: -263px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   color: #fff;
   z-index: 1000;
 }
@@ -307,15 +297,9 @@ element.style {
 }
 
 .Recommendation__title .Recommendation__icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 230px;
   height: 230px;
   margin: 0 auto;
@@ -327,6 +311,7 @@ element.style {
 }
 
 /* アイコン */
+
 .Recommendation__title p {
   margin: 0.2rem 0 0;
   font-weight: 700;
@@ -348,10 +333,11 @@ element.style {
   width: 1.25em;
 }
 
+
 /*レスポンシブ*/
+
 @media (max-width: 1290px) {
   span {
     display: none;
   }
 }
-/*# sourceMappingURL=style.css.map */
