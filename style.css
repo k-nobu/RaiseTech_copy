@@ -163,6 +163,13 @@ p {
   background-color: #2498b3;
 }
 
+.Nav__body ul .sub-menu {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
 /* main */
 .Main {
   padding-top: 70px;

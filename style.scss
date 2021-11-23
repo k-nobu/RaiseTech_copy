@@ -80,13 +80,6 @@ ul.sub-menu li {
   background-color: #e9f8fb;
 }
 
-ul.sub-menu.close {
-  
-}
-
-
-
-
 .Header .Header__title p img {
   height: 33px;
   width: auto;
@@ -159,6 +152,10 @@ p {
 .Nav__body ul li.Nav__special a {
   color: #fff;
   background-color: #2498b3
+}
+
+.Nav__body ul .sub-menu {
+  flex-flow: column;
 }
 
 /* main */
