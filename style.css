@@ -381,4 +381,24 @@ element.style {
     display: none;
   }
 }
+@media (max-width: 1200px) {
+  .Header .Header__title p img {
+    height: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .Header .Header__title {
+    margin: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .Header .Header__title p {
+    height: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .Header .Header__title p a {
+    height: 30px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
